@@ -11,33 +11,41 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Saldo">
+        tools:context=".Transferencia">
 
-    
     <Toolbar
-        android:id="@+id/toolbarSaldo"
+        android:id="@+id/toolbarTransferencia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/blue"
-        android:title="Saldo"
-        android:titleTextColor="@color/white"
         android:navigationIcon="@drawable/ic_voltar"
-        />
-    
+        android:title="Transferência"
+        android:titleTextColor="@color/white" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Saldo Disponível"
-        android:textStyle="bold"
-        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Transferência"
         android:textColor="@color/black"
-        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para: "
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="R$ 1.500,00"
+        android:text="Valor: "
         android:textStyle="bold"
         android:textSize="22sp"
         android:layout_marginTop="10dp"
