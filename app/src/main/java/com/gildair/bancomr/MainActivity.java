@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (id == R.id.imgSaldo) {
             Intent navegarTelaDeSaldo = new Intent(MainActivity.this, Saldo.class);
             startActivity(navegarTelaDeSaldo);
-        } else if(id == R.id.imgFaturas){
+        } else if (id == R.id.imgFaturas) {
             Intent navegarTelaDeFaturas = new Intent(MainActivity.this, Faturas.class);
             startActivity(navegarTelaDeFaturas);
         }
